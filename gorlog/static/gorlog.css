@@ -12,7 +12,7 @@ body {
 
 /* Placed inside #container and is centered */
 #centered-container {
-    max-width: 800px;
+    width: calc(min(800px, 100%));
 }
 
 /* Placed inside #centered-container as the direct parent to the content */
