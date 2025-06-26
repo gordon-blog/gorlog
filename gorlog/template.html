@@ -1,0 +1,47 @@
+<html data-template-version="1.0">
+    <!-- Place this template inside a folder inside p, like p/my-blog-post/index.html -->
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="/gorlog/static/favicon.ico">
+        <link rel="stylesheet" href="/gorlog/static/gorlog.css">
+        <script src="/gorlog/config.js"></script>
+        <script src="/gorlog/static/gorlog.js"></script>
+        
+        <!-- MODIFY THESE FOR EACH ENTRY -->
+        <!-- KEEP UP TO DATE WITH POST LIST IN config.js AS NEEDED -->
+        <title>
+            {{title}}
+        </title>
+        <meta property="og:article:author" content="{{author}}" />
+        <meta property="og:description"
+            content="{{desc}}"
+        />
+        <meta property="og:article:published_time"
+            content="{{published_time}}"
+        />
+
+    </head>
+    <body>
+        <!-- Here is where you write your article -->
+        <p>
+            This is a paragraph.
+        </p>
+        <p>
+            This is another paragrah with a <a href="https://youtube.com/watch?v=dQw4w9WgXcQ">link</a> and some <b>bolded</b> text.
+        </p>
+        <p>
+            You can do so many things with raw HTML! You can...
+            <ul>
+                <li>Make a list</li>
+                <li>Write <code>code</code></li>
+            </ul>
+            You can even insert an image.
+        </p>
+        <img class="full-width" src="/gorlog/static/example-image.png" />
+        <p>
+            If things don't look styled right, make sure that the link tags are loading gorlog.css and gorlog.js correctly.
+        </p>
+    </body>
+</html>

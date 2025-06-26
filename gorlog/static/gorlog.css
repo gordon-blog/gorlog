@@ -1,0 +1,95 @@
+body {
+    font-size: 16pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Contains all of body */
+#container {
+    margin: 1rem 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Placed inside #container and is centered */
+#centered-container {
+    max-width: 800px;
+}
+
+/* Placed inside #centered-container as the direct parent to the content */
+#content-container {
+    margin: 2rem 0px;
+    line-height: 1.5em;
+}
+
+/* Drop cap is placed on the first letter of the first <p> tag */
+#content-container p:first-of-type::first-letter {
+    font-size: 2em;
+    float: left;
+    margin-right: 5px;
+}
+
+/* For images especially */
+.full-width {
+    width: 100%;
+}
+
+/* List formatting */
+li {
+    padding: 5px 0px;
+}
+
+ul, ol {
+    margin: 2rem 0px;
+}
+
+/* Remove default margin for headers */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* pre is for multi-line code; code is for in-line. */
+pre, code {
+    font-size: .8em;
+    white-space: pre-wrap;
+    background: #f0f0f0;
+    padding: .1em .2em;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+pre {
+    width: 100%;
+    overflow: scroll;
+    padding: 10px;
+}
+
+/* Author's area in the header */
+.social-icon {
+    width: 25px;
+    height: 25px;
+}
+
+#author-block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* For the home page, we make the article items links but don't want them to look like links. */
+.article-item a {
+    all: unset;
+    cursor: pointer;
+}
+
+.article-item a:hover {
+    text-decoration: underline;
+}
+
+/* The footer is two divs stacked with passive colored text */
+#footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #505050;
+}
