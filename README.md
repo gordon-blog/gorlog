@@ -21,10 +21,12 @@ Just make sure that `gorlog.js` and `gorlog.css` are linked correctly in your po
 
 ## Configuration
 
-You can add authors' links to `config.js` so they show up appropriately in posts. If you're adding posts manually, you should add your posts to `config.js` as you create them as well so that they show up in the gorlog home page. The `config.js` file is also where you can configure the Copyright and footer.
+Change the blog's title and description directly in `gorlog/index.html`.
 
-Modify `static/gorlog.css` as desired.
+You can add authors' links to `gorlog/config.js` so they show up appropriately in posts. If you're adding posts manually, you should add your posts to `gorlog/config.js` as you create them as well so that they show up in the gorlog home page. The `gorlog/config.js` file is also where you can configure the Copyright and footer.
 
-The `static/gorlog.js` script will add divs to center the content you place in `<body>` as well as add a header and a footer based on the meta tags you include.
+Modify `gorlog/static/gorlog.css` as desired.
 
-Replace `static/favicon.ico` as needed.
+The `gorlog/static/gorlog.js` script will add divs to center the content you place in `<body>` as well as add a header and a footer based on the meta tags you include.
+
+Replace `gorlog/static/favicon.ico` as needed.
