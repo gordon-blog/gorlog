@@ -13,7 +13,7 @@ const SOCIAL_ICONS = {
 }
 
 const COPYRIGHT = "Gordon Kamer"  // Change as needed
-const FOOTER_HTML = 'Like this blog format? Try it out <a href="https://github.io">here</a>.'
+const FOOTER_HTML = 'Like this blog format? Try it out <a href="https://github.com/gordon-blog/gorlog">here</a>.'
 
 const POSTS = [
     {
